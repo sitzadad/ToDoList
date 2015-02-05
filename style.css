@@ -1,0 +1,47 @@
+body {
+  font-family: 'Open Sans'; }
+
+#createTaskForm {
+  padding: 1.5em 0;
+  border-bottom: 1px solid black; }
+  #createTaskForm input {
+    width: 80%; }
+
+input {
+  height: 34px; }
+
+article {
+  border-bottom: 1px solid black;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  padding-right: 10px;
+  position: relative; }
+  article h3 {
+    margin: 0;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer; }
+
+.editTaskForm {
+  display: none;
+  width: 100%; }
+  .editTaskForm input {
+    width: 60%; }
+
+.fa-pencil-square-o:hover, .fa-times:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer; }
+
+.fa-check {
+  color: #1fa67a;
+  font-size: 2em;
+  display: none; }
+
+.fa-pencil-square-o {
+  position: relative;
+  left: 10px; }
+
+.fa-times {
+  position: absolute;
+  top: 5px;
+  right: 5px; }
